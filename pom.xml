@@ -86,7 +86,7 @@
             <configFile>etc/eclipse-formatter-config.xml</configFile>
             <directories>
               <directory>${project.build.sourceDirectory}</directory>
-              <directory>${project.basedir}/src/main/java-22</directory>
+              <directory>${project.basedir}/src/main/java</directory>
             </directories>
           </configuration>
         </plugin>
@@ -306,7 +306,7 @@
               <configuration>
                 <release>22</release>
                 <compileSourceRoots>
-                  <compileSourceRoot>${project.basedir}/src/main/java-22</compileSourceRoot>
+                  <compileSourceRoot>${project.basedir}/src/main/java</compileSourceRoot>
                   <!--
                     Uncomment the next line to build the entire project with jdk22.
                     Currently, some classes fail to compile under jdk22.
